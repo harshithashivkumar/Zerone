@@ -249,6 +249,8 @@ span {
     max-width: 80px;
     transform: scale(0.6);
   }
+
+ 
   .text-container h1.dept {
     font-size: 1rem;
     margin-bottom: 5px;
@@ -397,6 +399,22 @@ span {
     max-width: 150px;
     transform: scale(0.7);
   }
+  .main-head h1{
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .header {
+    overflow-x: hidden;
+  }
+  .main-head h1{
+    font-size: 15px;
+  }
+  
+  
+
 }
 
 @media (max-width: 352px) {
