@@ -1,3 +1,9 @@
+/* Global Styles */
+body, html {
+  overflow-x: hidden; /* Disable horizontal scrolling */
+}
+
+
 .header {
   max-width: 1400px;
   margin-top: -80px;
@@ -144,21 +150,19 @@ span {
 
 
 /* Media Queries for Responsiveness */
+ 
 @media (max-width: 1200px) {
   .sitname {
     max-width: 130px;
     transform: scale(1.3);
   }
-
   .zeronelogo {
     max-width: 120px;
     transform: scale(0.8);
   }
-
   .text-container h1.dept {
     font-size: 1.4rem;
   }
-
   .text-container h1.pied span {
     font-size: 4.5rem;
   }
@@ -169,16 +173,13 @@ span {
     max-width: 130px;
     transform: scale(1.1);
   }
-
   .zeronelogo {
     max-width: 120px;
     transform: scale(0.8);
   }
-
   .text-container h1.dept {
     font-size: 1.4rem;
   }
-
   .text-container h1.pied span {
     font-size: 4.5rem;
   }
@@ -189,16 +190,13 @@ span {
     max-width: 130px;
     transform: scale(1);
   }
-
   .zeronelogo {
     max-width: 120px;
     transform: scale(0.8);
   }
-
   .text-container h1.dept {
     font-size: 1.4rem;
   }
-
   .text-container h1.pied span {
     font-size: 4.5rem;
   }
@@ -206,40 +204,33 @@ span {
 
 @media (max-width: 768px) {
   .header {
-    height: auto; /* Allow content to adjust in height */
+    height: auto;
     padding: 2rem 1rem;
   }
-
   .sitname {
     max-width: 100px;
     transform: scale(1.2);
   }
-
   .zeronelogo {
     max-width: 100px;
     transform: scale(0.7);
   }
-  .main-head{
-    display:flex;
+  .main-head {
+    display: flex;
   }
-
   .main-head img {
     max-width: 20px;
   }
-
   .text-container h1.dept {
     font-size: 1.2rem;
     margin-bottom: 10px;
   }
-
   .text-container h1.pied {
     font-size: 2rem;
   }
-
   .text-container h2 {
     font-size: 0.9rem;
   }
-
   .text-container span {
     font-size: 4rem;
   }
@@ -247,33 +238,27 @@ span {
 
 @media (max-width: 480px) {
   .header {
-    height: auto; /* Allow content to adjust in height */
+    height: auto;
     padding: 2rem 1rem;
   }
-
   .sitname {
     max-width: 100px;
     transform: scale(1.2);
   }
-
   .zeronelogo {
     max-width: 80px;
     transform: scale(0.6);
   }
-
   .text-container h1.dept {
     font-size: 1rem;
     margin-bottom: 5px;
   }
-
   .text-container h1.pied {
     font-size: 1.5rem;
   }
-
   .text-container h2 {
     font-size: 0.8rem;
   }
-
   .text-container span {
     font-size: 3rem;
   }
@@ -281,38 +266,31 @@ span {
 
 @media (max-width: 380px) {
   .header {
-    height: auto; /* Allow content to adjust in height */
+    height: auto;
     padding: 2rem 0.5rem;
   }
-
   .main-head {
     display: flex;
   }
-
   .sitname {
     margin-top: 30px;
     max-width: 80px;
     transform: scale(1);
   }
-
   .zeronelogo {
     max-width: 80px;
     transform: scale(0.6);
   }
-
   .text-container h1.dept {
     font-size: 1rem;
     margin-bottom: 5px;
   }
-
   .text-container h1.pied {
     font-size: 1.5rem;
   }
-
   .text-container h2 {
     font-size: 0.8rem;
   }
-
   .text-container span {
     font-size: 3rem;
   }
@@ -320,63 +298,80 @@ span {
 
 @media (max-width: 350px) {
   .header {
-    height: auto; /* Adjust height */
+    height: auto;
     padding: 0.5rem;
   }
-
   .sitname {
     max-width: 70px;
     transform: scale(1);
   }
-
   .zeronelogo {
     max-width: 70px;
     transform: scale(0.5);
   }
-
   .text-container h1.dept {
     font-size: 1rem;
   }
-
   .text-container h1.pied {
     font-size: 1.3rem;
   }
-
   .text-container h2 {
     font-size: 0.7rem;
   }
-
   .text-container span {
     font-size: 2.5rem;
   }
 }
 
-
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   .main-head {
-    gap: 1px; /* Reduce gap for smaller screens */
+    gap: 1px;
   }
-
   .header {
-    margin-top: -20px;
+    margin-top: -30px;
+    margin-left: -10px;
   }
-
   .main-head img {
-    max-width: 50px; /* Reduce image size */
+    max-width: 50px;
   }
-  .main-head h1{
+  .main-head h1 {
+    margin-left: -1rem;
     font-size: 1.5rem;
   }
 
+  .text-container{
+    padding-right: 1rem;
+  }
+
   .sit-head {
-    font-size: 1.5rem; /* Adjust text size */
+    font-size: 1.5rem;
   }
 
   .zeronelogo {
     padding-top: 60px;
-    max-width: 150px;
+    padding-right: 2rem;
+    max-width: 180px;
     transform: scale(0.7);
+  }
+
+  .header-contents img {
+    max-width: 120%;
+    height: auto;
+  }
+  
+
+  .main-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+  }
+
+  .main-head img{
+    max-width: 10%;
+    margin-left: 10px;
+    margin-right: 25px;
+
   }
 }
 
@@ -384,26 +379,19 @@ span {
   .header {
     overflow-x: hidden;
   }
-
-  .h-container {
-    /* Removed margin-right */
-  }
-
+  .h-container {}
   .main-head img {
     gap: 20px;
-    max-width: 40px; /* Further reduce image size */
+    max-width: 40px;
   }
-
   .sit-head {
-    font-size: 1.2rem; /* Smaller text for narrow screens */
+    font-size: 1.2rem;
   }
-
   .text-container h2 {
     margin-top: 20px;
     color: greenyellow;
     font-size: 10px;
   }
-
   .zeronelogo {
     padding-top: 60px;
     max-width: 150px;
@@ -415,16 +403,14 @@ span {
   .header-contents {
     margin-top: -20px;
   }
-
   .main-head h1 {
     font-size: 1rem;
   }
-
   .h-container .zeronelogo {
     max-width: 20rem;
   }
-
   .pied {
     font-size: 1rem;
   }
 }
+ 
