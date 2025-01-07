@@ -9,6 +9,18 @@
     }
 }
 
+h1,h2,h3{
+    font-family: pied;
+}
+
+span{
+    color: #ff0000;
+}
+
+.green{
+    color: #06e406;
+}
+
 .theme-container {
     display: flex;
     justify-content: space-between;
@@ -58,11 +70,19 @@
     }
 
     .theme-container img {
-        max-width: 80%; /* Adjusts the image size for smaller screens */
+        max-width: 100%; /* Adjusts the image size for smaller screens */
         margin-bottom: 1.5rem;
     }
 
     .slogan {
+        margin-top: 10px;
+        font-size: 20px;
         text-align: center; /* Centers text for smaller screens */
+        justify-content: start;
+    }
+    .slogan h1{
+        font-size: 1.5rem;
+        
+        
     }
 }
