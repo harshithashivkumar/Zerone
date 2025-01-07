@@ -1,0 +1,22 @@
+.maps-container {
+    text-align: center; /* Centers the content */
+    margin-top: 20px;
+}
+
+.map-container {
+    width: 80%; /* Set the width of the map */
+    height: 450px; /* Match the height to width for a square format */
+    position: relative;
+    margin: auto; /* Center the map horizontally */
+    border: 5px solid #4CAF50; /* Add a green border around the map */
+    border-radius: 12px; /* Optional: Add rounded corners */
+    overflow: hidden; /* Ensure the iframe fits within the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+    z-index: 5;
+}
+
+.map-container iframe {
+    width: 100%; /* Make the iframe fill the container */
+    height: 100%; /* Ensure the iframe maintains the container's square shape */
+    border: none; /* Remove the default border */
+}

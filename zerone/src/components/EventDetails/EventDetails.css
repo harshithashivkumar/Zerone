@@ -1,0 +1,142 @@
+/* Ensure the entire page is at the front */
+body {
+  position: relative;
+  z-index: 5; /* Bringing entire page to the front */
+}
+
+/* Event Details Container */
+.event-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+  position: relative; /* Add position relative to use z-index */
+  z-index: 5;
+  margin-top:40px;
+  margin-bottom: 46px;
+}
+
+/* Event Image Section */
+.event-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative; /* Add position relative to use z-index */
+  z-index: 5;
+}
+
+.event-image img {
+  width: 60%;
+  border-radius: 8px;
+}
+
+.event-image h1 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+/* Event Details Section */
+.event-details {
+  background: transparent;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 900px;
+  position: relative; /* Add position relative to use z-index */
+  z-index: 5;
+  border: #04c404 2px solid;
+}
+
+.event-details h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.event-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left; /* Align to left */
+}
+
+.event-details ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  text-align: left; /* Align to left */
+}
+
+/* Coordinators Section */
+.event-coordinators {
+  margin-top: 20px;
+  position: relative; /* Add position relative to use z-index */
+  z-index: 5;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.coordinator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.coordinator img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.coordinator p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Register Button */
+.register-button {
+  margin-top: 20px;
+  position: relative; /* Add position relative to use z-index */
+  z-index: 5;
+}
+
+.register-button button {
+  background-color: #06e406;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-button button:hover {
+  background-color: #04c404;
+}
+
+.event-flex {
+  display: flex;
+  position: relative; /* Add position relative to use z-index */
+  z-index: 5;
+  justify-content: space-between;
+}
+
+
+.event-actions {
+  background: transparent;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 40%;
+  position: relative; /* Add position relative to use z-index */
+  z-index: 5;
+  border: #04c404 2px solid;
+}
+
+.event-flex{
+  gap: 20px;
+}

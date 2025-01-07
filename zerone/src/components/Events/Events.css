@@ -1,0 +1,151 @@
+/* General Styles */
+.events-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    z-index: 2;
+    position: relative;
+}
+
+/* Flexbox for the events list */
+.events-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center align the cards */
+    max-width: 880px; /* Width to allow 4 cards per row with gap */
+    margin: 0 auto; /* Center align the entire list within its container */
+}
+
+/* Wrapper for each individual event */
+.event {
+    flex: 0 0 calc(25% - 20px); /* Each card takes up 25% of the row minus the gap */
+    height: 250px;
+    background: transparent;
+    border: 2px solid #06e406;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative; /* Ensure proper layering for hover effects */
+    animation: anim 1s ease-in-out;
+}
+
+/* Image container, displayed first */
+.event .img-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Ensure overflow is hidden */
+    position: relative; /* Needed to ensure image and text layering */
+    z-index: 1;
+}
+
+/* Event image styling */
+.event img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform-origin: center center; /* Ensures the transformation occurs from the center */
+}
+
+/* Details container, initially hidden */
+.event .textBox {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 2; /* Ensure text appears on top of the image */
+}
+
+
+/* Add styles for <p> with class "text head" */
+.text.head {
+    color: #06e406; /* Set the text color to red */
+}
+
+
+
+/* Styling for text inside the text box */
+.event .textBox .text {
+    font-weight: bold;
+}
+
+.event .textBox .head {
+    font-size: 18px;
+}
+
+.event .textBox .price {
+    font-size: 16px;
+}
+
+.event .textBox span {
+    font-size: 12px;
+    color: lightgrey;
+}
+
+/* Hover effect to show text and apply effects */
+.event:hover .textBox {
+    opacity: 1;
+}
+
+.event:hover .img-container img {
+    filter: blur(5px);
+    transform: scale(1.1);
+    animation: moveImage 2s infinite ease-in-out; /* Apply the movement animation only on hover */
+}
+
+/* Hover effect for scaling, rotating, and shadow */
+.event:hover {
+    transform: scale(1.04) rotate(-1deg);
+    box-shadow: 0 8px 16px #06e406; /* Green shadow effect on hover */
+}
+
+/* Define the keyframe animation for top-to-bottom movement */
+@keyframes moveImage {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Keyframes for animation */
+@keyframes anim {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

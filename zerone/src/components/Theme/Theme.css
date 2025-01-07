@@ -1,0 +1,68 @@
+@keyframes scaleUp {
+    from {
+        transform: scale(0.9); /* Start slightly smaller */
+        opacity: 0; /* Start invisible */
+    }
+    to {
+        transform: scale(1); /* End at full size */
+        opacity: 1; /* Fully visible */
+    }
+}
+
+.theme-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.theme-container img {
+    max-width: 45%; /* Restricts the image width to 45% of the container */
+    height: auto; /* Maintains the aspect ratio */
+    object-fit: cover; /* Ensures the image fits well */
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    z-index: 5;
+    opacity: 0; /* Hidden by default */
+    animation: scaleUp 0.8s ease forwards; /* Apply animation on render */
+}
+
+.slogan {
+    flex: 1; /* Ensures the text takes up the remaining space */
+    text-align: left; /* Aligns the text to the left */
+    color: #ffffff; /* Change to white (#fff) for dark backgrounds */
+    font-family: 'Inter', sans-serif;
+    z-index: 5;
+}
+
+.slogan h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fff7f7; /* Adjust text color if needed */
+}
+
+.slogan h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    color: #ffffff; /* Adjust text color if needed */
+}
+
+@media (max-width: 768px) {
+    .theme-container {
+        flex-direction: column; /* Stacks the image and text on smaller screens */
+        text-align: center; /* Centers text for smaller screens */
+    }
+
+    .theme-container img {
+        max-width: 80%; /* Adjusts the image size for smaller screens */
+        margin-bottom: 1.5rem;
+    }
+
+    .slogan {
+        text-align: center; /* Centers text for smaller screens */
+    }
+}

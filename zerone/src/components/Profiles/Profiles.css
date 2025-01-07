@@ -1,0 +1,70 @@
+.profile-container {
+  
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-top: 60px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  z-index: 5;
+}
+
+.profile-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  z-index: 5;
+}
+
+.all-profiles {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping to the next row */
+  justify-content: center; /* Center-aligns the items */
+  gap: 1rem; /* Adds spacing between the profiles */
+  z-index: 5;
+}
+
+.hod-profile{
+  z-index: 5;
+}
+
+.student-profile{
+  z-index: 5;
+}
+
+.hod-profile img,
+.fac-profile img,
+.student-profile img {
+  width: 80px; /* Reduced image size */
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  z-index: 5;
+}
+
+.hod-profile h2,
+.fac-profile h2,
+.student-profile h2 {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  color: #ffffff;
+  z-index: 5;
+}
+
+.faculty .fac-profile {
+  width: calc(33.33% - 7rem); /* Ensures three profiles per row */
+  z-index: 5;
+}
+
+@media (max-width: 768px) {
+  .faculty .fac-profile {
+    width: calc(50% - 1rem); /* Adjust to two profiles per row on medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .faculty .fac-profile {
+    width: 100%; /* Stacks profiles in a single column on small screens */
+  }
+}

@@ -1,0 +1,167 @@
+/* General Navbar styles */
+.navbar {
+    position: relative;
+    top: 0;
+    gap: 15vw;
+    width: 100%;
+    display: flex;
+    margin: -30px;
+    margin-top: -40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    z-index: 1000;
+}
+
+.navbar-logo {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    width: auto;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.left2 {
+    height: 30px;
+    width: auto;
+}
+
+/* Hamburger Menu Styling */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.hamburger .line.open {
+    transform: rotate(45deg);
+    position: relative;
+}
+
+.hamburger .line.open:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger .line.open:nth-child(3) {
+    transform: rotate(-45deg);
+    position: relative;
+}
+
+/* Navbar Items (hidden by default) */
+.navbar-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 70px; /* Position the menu below the navbar */
+    left: 0;
+    width: 100%;
+    background-color: black;
+    transform: translateY(-100%); /* Start off-screen */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.navbar-items.active {
+    transform: translateY(0); /* Move into view */
+}
+
+.navbar-items li {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.navbar-items a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navbar-items a:hover {
+    color: #00bcd4;
+}
+
+/* Mobile-first styling */
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+    }
+
+    .navbar-items {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: none;
+    }
+
+    .navbar-items.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+/* Tablet screens (width between 481px and 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        padding: 1rem;
+    }
+
+    .navbar-items {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: none; /* Hide items on smaller tablets */
+    }
+
+    .navbar-items.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+/* Small laptops and tablets (width between 769px and 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar {
+        display: none; /* Hide navbar on medium screens */
+    }
+}
+
+/* Laptops and PCs (width between 1025px and 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .navbar {
+        display: none; /* Hide navbar on large screens */
+    }
+}
+
+/* Large screens (greater than 1440px) */
+@media (min-width: 1441px) {
+    .navbar {
+        display: none; /* Hide navbar on large screens (optional) */
+    }
+}
+
+
