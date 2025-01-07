@@ -198,6 +198,14 @@ span {
     max-width: 100px;
     transform: scale(0.7);
   }
+  .main-head{
+    display:flex;
+    
+  }
+
+  .main-head img{
+    max-width: 20px;
+  }
 
   .text-container h1.dept {
     font-size: 1.2rem;
@@ -223,21 +231,11 @@ span {
     padding: 2rem 1rem;
   }
 
-  .main-head{
-    display:flex;
-  }
-
-    .main-head h1{
-      font-size: 15px;
-    }
-
-    img{
-      max-width: 80px;
-    }
   .sitname {
     max-width: 100px;
     transform: scale(1.2);
   }
+  
 
   .zeronelogo {
     max-width: 80px;
@@ -270,12 +268,6 @@ span {
 
   .main-head{
     display:flex;
-  }
-  .main-head h1{
-    font-size: 10px;
-  }
-  .main-head img{
-    max-width: 20px;
   }
   .sitname {
     margin-top: 30px;
@@ -321,6 +313,7 @@ span {
     max-width: 70px;
     transform: scale(0.5);
   }
+  
 
   .text-container h1.dept {
     font-size: 1rem;
@@ -346,7 +339,7 @@ span {
   gap: 20px; /* Space between image and heading */
   text-align: center;
   margin: 20px 0; /* Add spacing above and below */
-  margin-left: 20px;
+  margin-left: 9px;
 }
 
 .main-head img {
@@ -369,9 +362,6 @@ span {
      /* Stack image and heading vertically */
     gap: 1px; /* Reduce gap for smaller screens */
     
-  }
-  .h-container{
-    margin-right: 25px;
   }
   .header{
     margin-top: -20px;
@@ -399,10 +389,9 @@ span {
   }
 
   .h-container{
-    margin-right: 60px;
+    margin-right: 2px;
   }
   .main-head img {
-    margin-top: -20px;
     gap: 20px;
     max-width: 40px; /* Further reduce image size */
   }
@@ -421,4 +410,23 @@ span {
     transform: scale(0.7);
   }
   
+}
+
+@media (max-width: 352px){
+  .header-contents{
+    margin-top: -20px;
+
+  }
+
+  .main-head h1{
+    font-size: 1rem;
+  }
+
+  .h-container .zeronelogo{
+    max-width: 20rem;
+  }
+
+  .pied{
+    font-size: 1rem;
+  }
 }
