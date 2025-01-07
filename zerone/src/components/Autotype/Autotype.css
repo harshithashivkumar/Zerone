@@ -1,10 +1,9 @@
 
 .auto-cont{
-  padding: 7rem;
+  padding: 5rem;
   
 }
 .autotype-container {
-
   max-width: 25em;
   margin: 0 auto;
   font-family: 'Courier New', Courier, monospace;
@@ -24,6 +23,10 @@ h1 {
   margin-bottom: 1.5rem;
   z-index: 2;
   position: relative;
+}
+
+h1 span{
+  color: #0a06e4;
 }
 
 
@@ -93,14 +96,34 @@ pre {
 
 @media (max-width: 600px) {
   .autotype-container {
-      padding: 1rem;
+    max-width: 30em;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    position: relative;
+    background: transparent;
+    border: 2px solid #06e406;
+    z-index: 3;
+    border-radius: 5px;
   }
   .boxtype {
-      width: 100%;
+      width: 120%;
       padding: 0;
   }
+
+
+
   .autotype-content {
-      font-size: 1rem;
+      font-size: 0.5rem;
       padding: 0.5rem;
+  }
+
+  pre {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 1rem;
   }
 }
