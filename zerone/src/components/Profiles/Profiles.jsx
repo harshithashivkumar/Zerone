@@ -7,7 +7,7 @@ const Profiles = () => {
     <div className="profile-container">
         <div className="hod">
             <div className="head-tag">
-            <h1>HEAD OF DEPARTMENT</h1>
+            <h1>PRESIDENT</h1>
             </div>
             <div className="all-profiles">
             <div className="hod-profile">
@@ -23,29 +23,13 @@ const Profiles = () => {
             <div className="all-profiles">
             <div className="fac-profile">
                 <img src={assets.sit} alt="" />
-                <h2>Dr. Asha Gowda karegowda</h2>
-                
-            </div>
-            <div className="fac-profile">
-                <img src={assets.sit} alt="" />
-                <h2>Dr. H S  Vijaya Kumar</h2>
-            </div>
-            <div className="fac-profile">
-                <img src={assets.sit} alt="" />
                 <h2>Dr. Bhanuprakash C</h2>
-            </div>
-            <div className="fac-profile">
-                <img src={assets.sit} alt="" />
-                <h2>Mr. H K ViruPakshaiah</h2>
             </div>
             <div className="fac-profile">
                 <img src={assets.sit} alt="" />
                 <h2>Dr. Prashanth G K</h2>
             </div>
-            <div className="fac-profile">
-                <img src={assets.sit} alt="" />
-                <h2>Mr. Y Venkata Reddy</h2>
-            </div>
+            
             </div>
         </div>
         <div className="student">
