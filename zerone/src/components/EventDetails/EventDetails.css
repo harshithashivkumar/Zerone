@@ -154,6 +154,28 @@ body {
   .event-details {
     width: 50%; /* Further refine layout for very large screens */
   }
+
+  .coordinator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  .coordinator img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .coordinator p {
+    margin: 0;
+    font-size: 0.7rem;
+  }
+
+
+
 }
 @media (max-width: 768px) {
   .event-flex {
@@ -218,6 +240,43 @@ body {
     margin-right: -40px;
   }
 }
+@media (max-width: 768px) {
+
+  .event-actions{
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .event-details {
+    width: 90%;
+  }
+
+  .event-image img {
+    width: 80%;
+  }
+
+
+  .coordinator {
+    display: flex;
+    margin-right: -20px;
+    margin-top: 20px;
+}
+    
+  .event-coordinators{
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .coordinator p{
+    font-size: 0.8rem;
+  }
+
+  .register-button button {
+    width: 100%; /* Full-width button on small screens */
+  }
+}
 
 @media(max-width:542px){
   .event-details{
@@ -236,27 +295,9 @@ body {
 }
 
 /* Adjust width for smaller screens */
-@media (max-width: 768px) {
-  .event-details {
-    width: 90%;
-  }
 
-  .event-image img {
-    width: 80%;
-  }
 
-  .event-coordinators {
-    flex-wrap: wrap;
-  }
 
-  .coordinator {
-    flex: 1 1 100%; /* Take full width on small screens */
-  }
-
-  .register-button button {
-    width: 100%; /* Full-width button on small screens */
-  }
-}
 
 /* Add hover effects for coordinators */
 .coordinator:hover {
