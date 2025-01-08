@@ -16,7 +16,7 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faWhatsapp} />
                 </a>
             </div>
-            <p>made with ❤️ by <span className='foo'>
+            <p>made by <span className='foo'>
                 <a href="https://www.instagram.com/dineshgowdavlogs" target="_blank" rel="noopener noreferrer">DINESH</a>
             </span></p>
         </div>

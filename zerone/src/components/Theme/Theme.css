@@ -63,26 +63,74 @@ span{
     color: #ffffff; /* Adjust text color if needed */
 }
 
+@media (max-width: 1208px){
+    .slogan h1{
+        font-size: 1.5rem;
+       
+    }
+    .slogan h1 span{
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 960px){
+    .slogan h1{
+        font-size: 1.5rem;
+       
+    }
+    .slogan h1 span{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 870px){
+    .slogan h1{
+        font-size: 1.3rem;
+       
+    }
+    .slogan h1 span{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 832px){
+    .slogan h1{
+        font-size: 0.8rem;
+        
+    }
+    .slogan h1 span{
+        font-size: 3rem;
+    }
+}
+
+
 @media (max-width: 768px) {
     .theme-container {
         flex-direction: column; /* Stacks the image and text on smaller screens */
         text-align: center; /* Centers text for smaller screens */
+        
     }
 
     .theme-container img {
-        max-width: 100%; /* Adjusts the image size for smaller screens */
+        max-width: 60%; /* Adjusts the image size for smaller screens */
         margin-bottom: 1.5rem;
     }
 
     .slogan {
         margin-top: 10px;
-        font-size: 20px;
+        font-size: 10px;
         text-align: center; /* Centers text for smaller screens */
         justify-content: start;
     }
     .slogan h1{
-        font-size: 1.5rem;
-        
-        
+        font-size: 1rem;
+       
+    }
+    .slogan h1 span{
+        font-size: 4rem;
     }
 }
+
+@media (max-width: 400px){
+
+} 

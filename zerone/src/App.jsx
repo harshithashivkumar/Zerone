@@ -18,7 +18,7 @@ function App({ onAppMount }) {
         {/* Background Video */}
         <video autoPlay muted loop id="background-video">
           <source src={assets.bgvideo} type="video/mp4" />
-          Your browser does not support the video tag.
+          Your browser does not support the video.
         </video>
 
         {/* Overlay */}

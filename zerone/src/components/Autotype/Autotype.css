@@ -1,6 +1,6 @@
 
 .auto-cont{
-  padding: 5rem;
+  padding: 3rem;
   
 }
 .autotype-container {
@@ -111,19 +111,30 @@ pre {
       width: 120%;
       padding: 0;
   }
-
-
-
   .autotype-content {
       font-size: 0.5rem;
       padding: 0.5rem;
   }
 
-  pre {
-    font-size: 15px;
-  }
+  
 
   h1 {
+    margin-left: -20px;
     font-size: 1rem;
+  }
+  .head{
+    font-size: 1.8rem;
+    margin-left: 1rem;
+  }
+
+  .head span{
+    color: #0620e4;
+    font-size: 4rem;
+    margin-left: -1.5rem;
+  }
+
+  pre {
+    font-size: 15px;
+    
   }
 }

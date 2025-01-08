@@ -71,7 +71,7 @@ const Autotype = () => {
 
   return (
     <div className="auto-cont">
-    <h1>DETAILS OF ZERONE</h1>
+    <h1 className='head' >DETAILS OF <span>ZERONE</span></h1>
     <div className="autotype-container" ref={autotypeRef}>
       <div className="autotype-head">
           ZERONE 2K25

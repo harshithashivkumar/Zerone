@@ -16,7 +16,7 @@ const Home = () => {
       <Events />
       <Profiles/>
       <Maps/>
-      <Footer/>
+      <Footer/> 
     </>
   );
 };

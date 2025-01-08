@@ -8,8 +8,8 @@ const Header = () => {
       <div className="header-contents">
         <div className="h-container">
           <div className="main-head">
-                <img src={assets.sit} alt="" srcset="" />
-                <h1 className="sit-head">SIDDAGANGA INSTITUTE OF TECHNOLOGY</h1>
+                <img  src={assets.sit} alt="" srcset="" />
+                <h1 className="sit-head pied">SIDDAGANGA INSTITUTE OF TECHNOLOGY</h1>
                 <img src={assets.sit} alt="" srcset="" />
           </div>
           <div className="text-container">

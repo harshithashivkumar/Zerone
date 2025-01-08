@@ -23,7 +23,12 @@ const Profiles = () => {
             <div className="all-profiles">
             <div className="fac-profile">
                 <img src={assets.sit} alt="" />
-                <h2>Mr. H K ViruPakshaiah</h2>
+                <h2>Dr. Asha Gowda karegowda</h2>
+                
+            </div>
+            <div className="fac-profile">
+                <img src={assets.sit} alt="" />
+                <h2>Dr. H S  Vijaya Kumar</h2>
             </div>
             <div className="fac-profile">
                 <img src={assets.sit} alt="" />
@@ -31,15 +36,11 @@ const Profiles = () => {
             </div>
             <div className="fac-profile">
                 <img src={assets.sit} alt="" />
+                <h2>Mr. H K ViruPakshaiah</h2>
+            </div>
+            <div className="fac-profile">
+                <img src={assets.sit} alt="" />
                 <h2>Dr. Prashanth G K</h2>
-            </div>
-            <div className="fac-profile">
-                <img src={assets.sit} alt="" />
-                <h2>Dr. Asha Gowda karegowda</h2>
-            </div>
-            <div className="fac-profile">
-                <img src={assets.sit} alt="" />
-                <h2>Dr.H S  Vijaya Kumar</h2>
             </div>
             <div className="fac-profile">
                 <img src={assets.sit} alt="" />
@@ -55,10 +56,12 @@ const Profiles = () => {
             <div className="student-profile">
                 <img src={assets.sit} alt="" />
                 <h2>Harshith N Bali</h2>
+                <h2>Ph: 6363027720</h2>
             </div>
             <div className="student-profile">
                 <img src={assets.sit} alt="" />
                 <h2>Harshitha S</h2>
+                <h2>Ph: 6360543950</h2>
             </div>
             </div>
         </div>

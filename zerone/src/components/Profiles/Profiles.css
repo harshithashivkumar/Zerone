@@ -1,5 +1,4 @@
 .profile-container {
-  
   width: 100%;
   margin: 0 auto;
   padding: 2rem;
@@ -58,6 +57,12 @@
 }
 
 @media (max-width: 768px) {
+
+  .profile-container{
+    margin-left: -30PX;
+    padding-top: 20px;
+  }
+
   .faculty .fac-profile {
     width: calc(50% - 1rem); /* Adjust to two profiles per row on medium screens */
   }
@@ -67,4 +72,9 @@
   .faculty .fac-profile {
     width: 100%; /* Stacks profiles in a single column on small screens */
   }
+}
+
+
+.profile-container h2{
+  font-family: Arial, Helvetica, sans-serif;
 }

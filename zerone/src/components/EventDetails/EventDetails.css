@@ -131,7 +131,7 @@ body {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  width: 40%;
+  width: 30%;
   position: relative; /* Add position relative to use z-index */
   z-index: 5;
   border: #04c404 2px solid;
@@ -139,4 +139,127 @@ body {
 
 .event-flex{
   gap: 20px;
+}
+
+
+
+/* Media Queries for Responsiveness */
+
+
+@media (max-width: 1024px) {
+  .event-image img {
+    width: 50%; /* Reduce image size on larger screens */
+  }
+
+  .event-details {
+    width: 50%; /* Further refine layout for very large screens */
+  }
+}
+@media (max-width: 768px) {
+  .event-flex {
+    flex-direction: column; /* Side-by-side layout for medium and larger screens */
+  }
+
+
+  
+  .event-details {
+    background: transparent;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    position: relative; /* Add position relative to use z-index */
+    z-index: 5;
+    border: #04c404 2px solid;
+  }
+
+  
+.event-details h2 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.event-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left; /* Align to left */
+}
+
+.event-details ul li {
+  margin-bottom: 10px;
+  font-size: 0.6rem;
+  text-align: left; /* Align to left */
+}
+
+
+
+.event-actions{
+  border: #04c404 2px solid;
+  padding-right: 100px;
+  width: 300px;
+}
+
+.event-actions h2{
+  font-size: 1rem;
+  margin-left: 40px;
+    margin-right: -40px;
+}
+  .event-coordinators {
+    justify-content: flex-start;
+    padding: 20px;
+    margin-top: -5px;
+    margin-left: 40px;
+    margin-right: -40px;
+  }
+
+  button{
+    margin-left: 40px;
+    margin-right: -40px;
+  }
+}
+
+@media(max-width:542px){
+  .event-details{
+    width: 400px;
+  }
+}
+
+@media(max-width:447px){
+  .event-details{
+    width: 350px;
+  }
+
+  .event-actions{
+    width: 200px;
+  }
+}
+
+/* Adjust width for smaller screens */
+@media (max-width: 768px) {
+  .event-details {
+    width: 90%;
+  }
+
+  .event-image img {
+    width: 80%;
+  }
+
+  .event-coordinators {
+    flex-wrap: wrap;
+  }
+
+  .coordinator {
+    flex: 1 1 100%; /* Take full width on small screens */
+  }
+
+  .register-button button {
+    width: 100%; /* Full-width button on small screens */
+  }
+}
+
+/* Add hover effects for coordinators */
+.coordinator:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
 }
