@@ -30,7 +30,7 @@ const eventDetails = {
         phone: "8792103204",
       },
     ],
-    registerLink: "https://example.com/register-bgmi",
+    registerLink: "https://forms.gle/a2AiffcDS2ULBexcA",
   },
   techfluence: {
     image: assets.techfluence,
@@ -57,7 +57,7 @@ const eventDetails = {
         phone: "8867474824",
       },
     ],
-    registerLink: "https://example.com/register-techfluence",
+    registerLink: "https://forms.gle/VCQTRYBZpYC2enLs7",
   },
   geniux: {
     image: assets.geniux,
@@ -84,7 +84,7 @@ const eventDetails = {
         phone: "9019528254",
       },
     ],
-    registerLink: "https://example.com/register-geniux",
+    registerLink: "https://forms.gle/HMTY4JYyc1vuEapB9",
   },
   bytematrix: {
     image: assets.bytematrix,
@@ -112,7 +112,7 @@ const eventDetails = {
         phone: "9611989651",
       },
     ],
-    registerLink: "https://example.com/register-bytematrix",
+    registerLink: "https://forms.gle/LDkN76tVtFANZDnM8",
   },
   designscape: {
     image: assets.design,
@@ -146,7 +146,7 @@ const eventDetails = {
         phone: "9591563335",
       },
     ],
-    registerLink: "https://example.com/register-designscape",
+    registerLink: "https://forms.gle/4CQAcJq5SNhJy3qQ8",
   },
   runtoriches: {
     image: assets.runtoriches,
@@ -174,7 +174,7 @@ const eventDetails = {
         phone: "9019819123",
       },
     ],
-    registerLink: "https://example.com/register-runtoriches",
+    registerLink: "https://forms.gle/8pUQaQDnYXY7PVaYA",
   },
   wisdomwar: {
     image: assets.wisdom,
@@ -203,7 +203,7 @@ const eventDetails = {
         phone: "7338529116",
       },
     ],
-    registerLink: "https://example.com/register-wisdomwar",
+    registerLink: "https://forms.gle/ghyVayPfKzD2VkKK7",
   },
   valorant: {
     image: assets.photography,
@@ -231,7 +231,7 @@ const eventDetails = {
         phone: "8792747441",
       },
     ],
-    registerLink: "https://example.com/register-valorant",
+    registerLink: "https://forms.gle/Tvs3p8XezjayfyaBA",
   },
 };
 
