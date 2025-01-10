@@ -21,11 +21,11 @@ const Profiles = () => {
                 <h1>FACULTY CO-ORDINATORS</h1>
             </div>
             <div className="all-profiles">
-            <div className="fac-profile">
+            <div className="student-profile">
                 <img src={assets.sit} alt="" />
                 <h2>Dr. Bhanuprakash C</h2>
             </div>
-            <div className="fac-profile">
+            <div className="student-profile">
                 <img src={assets.sit} alt="" />
                 <h2>Dr. Prashanth G K</h2>
             </div>
