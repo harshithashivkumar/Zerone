@@ -80,7 +80,7 @@ const eventDetails = {
       },
       {
         name: "Meghana A C",
-        image: assets.sit,
+        image: assets.meghana,
         phone: "9019528254",
       },
     ],
@@ -198,8 +198,8 @@ const eventDetails = {
         phone: "9880265679",
       },
       {
-        name: "N G Manasa Bhuvana Keerthi",
-        image: assets.sit,
+        name: "N G Manasa",
+        image: assets.manasa,
         phone: "7338529116",
       },
     ],
@@ -227,7 +227,7 @@ const eventDetails = {
       },
       {
         name: "Kavya HS",
-        image: assets.sit,
+        image: assets.kavya,
         phone: "8792747441",
       },
     ],
