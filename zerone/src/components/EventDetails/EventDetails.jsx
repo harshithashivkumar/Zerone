@@ -20,7 +20,7 @@ const eventDetails = {
     ],
     coordinators: [
       {
-        name: "Dinesh L",
+        name: "Dinesh",
         image: assets.sit,
         phone: "7090969677",
       },
@@ -47,12 +47,12 @@ const eventDetails = {
 ],
     coordinators: [
       {
-        name: "Kiran kumar HR",
+        name: "Kiran kumar",
         image: assets.kiran,
         phone: "9538002362",
       },
       {
-        name: "Megha K",
+        name: "Megha",
         image: assets.megha,
         phone: "8867474824",
       },
@@ -79,7 +79,7 @@ const eventDetails = {
         phone: "8618539244",
       },
       {
-        name: "Meghana A C",
+        name: "Meghana",
         image: assets.meghana,
         phone: "9019528254",
       },
@@ -102,12 +102,12 @@ const eventDetails = {
 ],
     coordinators: [
       {
-        name: "Naveen V",
+        name: "Naveen",
         image: assets.naveen,
         phone: "7204615411",
       },
       {
-        name: "Sai Neha P R",
+        name: "Sai Neha",
         image: assets.saineha,
         phone: "9611989651",
       },
@@ -131,7 +131,7 @@ const eventDetails = {
 ],
     coordinators: [
       {
-        name: "Shivu T J",
+        name: "Shivu",
         image: assets.shivu,
         phone: "9108373134",
       },
@@ -169,7 +169,7 @@ const eventDetails = {
         phone: "7975220693",
       },
       {
-        name: "Chandana TP",
+        name: "Chandana",
         image: assets.chandana,
         phone: "9019819123",
       },
@@ -193,12 +193,12 @@ const eventDetails = {
     ],
     coordinators: [
       {
-        name: "Kushal S N",
+        name: "Kushal",
         image: assets.kushal,
         phone: "9880265679",
       },
       {
-        name: "N G Manasa",
+        name: "Manasa",
         image: assets.manasa,
         phone: "7338529116",
       },
@@ -226,7 +226,7 @@ const eventDetails = {
         phone: "7349173559",
       },
       {
-        name: "Kavya HS",
+        name: "Kavya",
         image: assets.kavya,
         phone: "8792747441",
       },
