@@ -1,6 +1,7 @@
 .maps-container {
     text-align: center; /* Centers the content */
     margin-top: 20px;
+    z-index: 5;
 }
 
 .map-container {
@@ -19,4 +20,29 @@
     width: 100%; /* Make the iframe fill the container */
     height: 100%; /* Ensure the iframe maintains the container's square shape */
     border: none; /* Remove the default border */
+    z-index: 5;
 }
+
+
+/* CSS for the button */
+input[type="button"] {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px auto; /* Add space and center */
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    position: relative; /* Set position to relative */
+    z-index: 10; /* Ensure it is above other elements */
+}
+
+/* Optional: Hover state */
+input[type="button"]:hover {
+    background-color: #1ede27; /* Darker green */
+}
+
