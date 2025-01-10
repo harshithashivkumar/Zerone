@@ -21,7 +21,7 @@ const eventDetails = {
     coordinators: [
       {
         name: "Dinesh",
-        image: assets.sit,
+        image: assets.dinesh,
         phone: "7090969677",
       },
       {
