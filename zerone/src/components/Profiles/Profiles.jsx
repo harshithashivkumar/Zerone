@@ -38,7 +38,7 @@ const Profiles = () => {
             </div>
             <div className="all-profiles">
             <div className="student-profile">
-                <img src={assets.sit} alt="" />
+                <img src={assets.Harshith} alt="" />
                 <h2>Harshith N Bali</h2>
                 <h2>Ph: 6363027720</h2>
             </div>

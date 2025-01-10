@@ -26,7 +26,7 @@ const eventDetails = {
       },
       {
         name: "Ramyashree",
-        image: assets.sit,
+        image: assets.ramya,
         phone: "8792103204",
       },
     ],
@@ -48,12 +48,12 @@ const eventDetails = {
     coordinators: [
       {
         name: "Kiran kumar HR",
-        image: assets.sit,
+        image: assets.kiran,
         phone: "9538002362",
       },
       {
         name: "Megha K",
-        image: assets.sit,
+        image: assets.megha,
         phone: "8867474824",
       },
     ],
@@ -74,8 +74,8 @@ const eventDetails = {
 ],
     coordinators: [
       {
-        name: "Nanadan",
-        image: assets.sit,
+        name: "Nandan",
+        image: assets.nandan,
         phone: "8618539244",
       },
       {
@@ -103,12 +103,12 @@ const eventDetails = {
     coordinators: [
       {
         name: "Naveen V",
-        image: assets.sit,
+        image: assets.naveen,
         phone: "7204615411",
       },
       {
         name: "Sai Neha P R",
-        image: assets.sit,
+        image: assets.saineha,
         phone: "9611989651",
       },
     ],
@@ -132,17 +132,17 @@ const eventDetails = {
     coordinators: [
       {
         name: "Shivu T J",
-        image: assets.sit,
+        image: assets.shivu,
         phone: "9108373134",
       },
       {
         name: "Kusuma",
-        image: assets.sit,
+        image: assets.kusuma,
         phone: "9591106749",
       },
       {
         name: "Prabhu",
-        image: assets.sit,
+        image: assets.prabhu,
         phone: "9591563335",
       },
     ],
@@ -165,12 +165,12 @@ const eventDetails = {
     coordinators: [
       {
         name: "Mohammed Nauman",
-        image: assets.sit,
+        image: assets.nauman,
         phone: "7975220693",
       },
       {
         name: "Chandana TP",
-        image: assets.sit,
+        image: assets.chandana,
         phone: "9019819123",
       },
     ],
@@ -194,7 +194,7 @@ const eventDetails = {
     coordinators: [
       {
         name: "Kushal S N",
-        image: assets.sit,
+        image: assets.kushal,
         phone: "9880265679",
       },
       {
@@ -205,9 +205,9 @@ const eventDetails = {
     ],
     registerLink: "https://forms.gle/ghyVayPfKzD2VkKK7",
   },
-  valorant: {
+  echosoflight: {
     image: assets.photography,
-    title: "Photography",
+    title: "Echos-Of-Light",
     details: [
       "★ it is an individual event.",
       "★ participants must assemble 30 minutes before the event to receive event information.",
@@ -222,7 +222,7 @@ const eventDetails = {
     coordinators: [
       {
         name: "Sathvik",
-        image: assets.sit,
+        image: assets.sathvik,
         phone: "7349173559",
       },
       {

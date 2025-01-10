@@ -11,7 +11,7 @@ const eventList = [
   { id: "designscape", name: "Design Scape", image: assets.design },
   { id: "runtoriches", name: "Run to Riches", image: assets.runtoriches },
   { id: "wisdomwar", name: "Wisdom war", image: assets.wisdom },
-  { id: "valorant", name: "Photography", image: assets.photography },
+  { id: "echosoflight", name: "EchosOfLight", image: assets.photography },
 ];
 
 const Events = () => {
