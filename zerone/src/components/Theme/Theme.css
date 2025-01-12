@@ -11,6 +11,7 @@
 
 h1,h2,h3{
     font-family: pied;
+    
 }
 
 span{
@@ -63,14 +64,19 @@ span{
     color: #ffffff; /* Adjust text color if needed */
 }
 
+.slogan h2{
+    z-index: 7;
+}
+
 @media (max-width: 1208px){
-    .slogan h1{
-        font-size: 1.5rem;
+    .slogan h2{
+        font-size: 1rem;
        
     }
-    .slogan h1 span{
-        font-size: 5rem;
+    .slogan h2 span{
+        font-size: 4.3rem;
     }
+    
 }
 
 @media (max-width: 960px){
@@ -133,4 +139,24 @@ span{
 }
 @media (max-width: 400px){
 
-} 
+}
+
+.slogan h2 {
+    font-size: 1.2rem; /* Adjust as needed */
+    color: #ffffff; /* Text color */
+    font-weight: bold; /* Makes the text bold */
+    z-index: 6; /* Ensures it is above other elements */
+    position: relative; /* Ensures z-index is applied */
+}
+
+.slogan h2 span {
+    color: #ff0000; /* Red color for the first span */
+    z-index: 6; /* Ensures it is above other elements */
+    position: relative; /* Ensures z-index is applied */
+}
+
+.slogan h2 .green {
+    color: #06e406; /* Green color for the second span */
+    z-index: 6; /* Ensures it is above other elements */
+    position: relative; /* Ensures z-index is applied */
+}

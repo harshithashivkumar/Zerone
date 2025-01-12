@@ -35,6 +35,7 @@ import meghana from './meghana.jpg';
 import kavya from './kavya.jpg';
 import harshith from './harshith.jpg';
 import dinesh from './dinesh.jpeg';
+import brouchere from './brouchere.pdf'
 
 // Exporting all assets as a single object
 export const assets = {
@@ -74,4 +75,5 @@ export const assets = {
   kavya,
   harshith,
   dinesh,
+  brouchere,
 };
