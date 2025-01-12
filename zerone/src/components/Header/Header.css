@@ -339,7 +339,7 @@ span {
     gap: 1px;
   }
   .header {
-    margin-top: 18rem;
+    margin-top: 13rem;
     margin-bottom: 18rem;
     margin-left: -10px;
   }
@@ -360,7 +360,7 @@ span {
   }
 
   .zeronelogo {
-    padding-top: 60px;
+    padding-top: 6px;
     padding-right: 2rem;
     max-width: 180px;
     transform: scale(0.7);
