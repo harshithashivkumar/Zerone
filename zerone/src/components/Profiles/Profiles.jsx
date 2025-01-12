@@ -26,7 +26,7 @@ const Profiles = () => {
                 <h2>Dr. Bhanuprakash C</h2>
             </div>
             <div className="student-profile">
-                <img src={assets.sit} alt="" />
+                <img src={assets.prashanth} alt="" />
                 <h2>Dr. Prashanth G K</h2>
             </div>
             

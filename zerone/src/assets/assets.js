@@ -16,6 +16,7 @@ import bgvideo from './bgvideo.mp4';
 import theme from './Theme.png';
 import wis from './wisdom1.png';
 import photography from './photography.png';
+import prashanth from './prashanth.jpg'
 import shivu from './shivu.jpg';
 import saineha from './saineha.jpg';
 import chandana from './chandana.jpg';
@@ -35,7 +36,7 @@ import meghana from './meghana.jpg';
 import kavya from './kavya.jpg';
 import harshith from './harshith.jpg';
 import dinesh from './dinesh.jpeg';
-import brouchere from './brouchere.pdf'
+import brouchere from './brouchere.pdf';
 
 // Exporting all assets as a single object
 export const assets = {
@@ -56,6 +57,7 @@ export const assets = {
   theme,
   wis,
   photography,
+  prashanth,
   shivu,
   saineha,
   chandana,

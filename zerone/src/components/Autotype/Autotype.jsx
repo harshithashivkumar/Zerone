@@ -8,7 +8,7 @@ const Autotype = () => {
   const content = [
     'DATE   : 30-Jan-2025 & 31-Jan-2025\n',
     'TIME   : 8 AM TO 8 PM\n',
-    'THEME  : Transforming ZERO TO ONE\n',
+    'THEME  : Celebrating the Binary Brilliance..\n',
     'PLACE  : Siddaganga Institute \n         Of Technology, Tumkur....',
   ];
 
@@ -49,12 +49,12 @@ const Autotype = () => {
           currentText += content[index][charIndex];
           setText(currentText); // Update the state with the current text
           charIndex++;
-          typingTimeout = setTimeout(typingEffect, 100); // Continue typing after a delay
+          typingTimeout = setTimeout(typingEffect, 60); // Continue typing after a delay
         } else {
           charIndex = 0;
           index++;
           if (index < content.length) {
-            typingTimeout = setTimeout(typingEffect, 500); // Delay before starting next line
+            typingTimeout = setTimeout(typingEffect, 100); // Delay before starting next line
           }
         }
       };
