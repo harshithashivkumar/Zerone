@@ -7,9 +7,9 @@ const Autotype = () => {
   const autotypeRef = useRef(null); // Reference for the component
   const content = [
     'DATE   : 30-Jan-2025 & 31-Jan-2025\n',
-    'TIME   : 8 AM TO 8 PM\n',
+    'TIME   : 8 AM TO 6 PM\n',
     'THEME  : Celebrating the Binary Brilliance..\n',
-    'PLACE  : Siddaganga Institute \n         Of Technology, Tumkur....',
+    'PLACE  : Siddaganga Institute Of Technology, \n         Tumkur , Karnataka-572102....',
   ];
 
   useEffect(() => {
@@ -49,7 +49,7 @@ const Autotype = () => {
           currentText += content[index][charIndex];
           setText(currentText); // Update the state with the current text
           charIndex++;
-          typingTimeout = setTimeout(typingEffect, 60); // Continue typing after a delay
+          typingTimeout = setTimeout(typingEffect, 10); // Continue typing after a delay
         } else {
           charIndex = 0;
           index++;
