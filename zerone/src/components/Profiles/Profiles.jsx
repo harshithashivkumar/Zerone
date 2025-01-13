@@ -11,7 +11,7 @@ const Profiles = () => {
             </div>
             <div className="all-profiles">
             <div className="hod-profile">
-                <img src={assets.sit} alt="" />
+                <img src={assets.hod} alt="" />
                 <h2>Dr. B G premasudha</h2>
             </div>
             </div>
@@ -22,7 +22,7 @@ const Profiles = () => {
             </div>
             <div className="all-profiles">
             <div className="student-profile">
-                <img src={assets.sit} alt="" />
+                <img src={assets.bhanuprakash} alt="" />
                 <h2>Dr. Bhanuprakash C</h2>
             </div>
             <div className="student-profile">
