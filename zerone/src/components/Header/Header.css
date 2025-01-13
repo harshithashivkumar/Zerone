@@ -360,10 +360,11 @@ span {
   }
 
   .zeronelogo {
-    padding-top: 6px;
+    margin-top: -10px;
     padding-right: 2rem;
     max-width: 180px;
     transform: scale(0.7);
+    margin-bottom: 20px;
   }
 
   .header-contents img {
