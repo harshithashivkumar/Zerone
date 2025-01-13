@@ -116,6 +116,19 @@
     box-shadow: 0 8px 16px #06e406; /* Green shadow effect on hover */
 }
 
+.events-container h3{
+    margin-top: -3.5rem;
+    font-size: 15px;
+    font-family:zerone;
+    
+}
+
+.events-container h3 span{
+  color:aqua;
+  font-size: 20px;
+}
+
+
 /* Define the keyframe animation for top-to-bottom movement */
 @keyframes moveImage {
     0% {

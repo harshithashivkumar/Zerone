@@ -18,6 +18,7 @@ const Events = () => {
   return (
     <div className="events-container">
       <h1>EVENTS</h1>
+      <h3>Discover more about our events <span>here</span></h3>
       <div className="events-list">
         {eventList.map((event, index) => (
           <div key={index} className="event">
