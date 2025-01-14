@@ -4,14 +4,14 @@ import { assets } from "../../assets/assets"; // Import assets object
 import "./Events.css";
 
 const eventList = [
-  { id: "bgmi", name: "BGMI", image: assets.bgmi,cat:"bg" },
-  { id: "techfluence", name: "Techfluence", image: assets.techfluence },
-  { id: "geniux", name: "Geniux", image: assets.geniux },
-  { id: "bytematrix", name: "Bytematrix", image: assets.bytematrix },
-  { id: "designscape", name: "Design Scape", image: assets.design },
-  { id: "runtoriches", name: "Run to Riches", image: assets.runtoriches },
-  { id: "wisdomwar", name: "Wisdom war", image: assets.wisdom },
-  { id: "echosoflight", name: "EchosOfLight", image: assets.photography },
+  { id: "bgmi", name: "Ground zero wars ",name1 : "BGMI", image: assets.bgmi,cat:"bg" },
+  { id: "techfluence", name: "Techfluence",name1 : "TECH TALK", image: assets.techfluence },
+  { id: "geniux", name: "Geniux",name1 : "IT MANAGER", image: assets.geniux },
+  { id: "bytematrix", name: "Bytematrix",name1 : "CODING", image: assets.bytematrix },
+  { id: "designscape", name: "Design Scape",name1 : "WEB & POSTER DESIGNING", image: assets.design },
+  { id: "runtoriches", name: "Run to Riches",name1 : "TREASURE HUNT", image: assets.runtoriches },
+  { id: "wisdomwar", name: "Wisdom war",name1 : "TECH QUIZ", image: assets.wisdom },
+  { id: "echosoflight", name: "Echoes Of Light",name1 : "PHOTOGRAPHY", image: assets.photography },
 ];
 
 const Events = () => {
@@ -28,7 +28,7 @@ const Events = () => {
               </div>
               <div className="textBox">
                 <p className="text head">{event.name}</p>
-                <span>{event.nam}</span> {/* If you want to show category */}
+                <span>{event.name1}</span> {/* If you want to show category */}
                 <p className="text price">{event.pric}</p> {/* If you want to show price */}
               </div>
             </Link>

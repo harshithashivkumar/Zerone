@@ -87,12 +87,14 @@
 }
 
 .event .textBox .head {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .event .textBox .price {
     font-size: 16px;
 }
+
+
 
 .event .textBox span {
     font-size: 12px;
