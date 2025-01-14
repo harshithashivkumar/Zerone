@@ -22,7 +22,7 @@ const Events = () => {
       <div className="events-list">
         {eventList.map((event, index) => (
           <div key={index} className="event">
-            <Link to={`/event/${event.id}`}>
+            <Link to={`/${event.id}`}>
               <div className="img-container">
                 <img src={event.image} alt={event.name} />
               </div>

@@ -30,7 +30,7 @@ function App({ onAppMount }) {
         {/* Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/event/:id" element={<EventDetails />} />
+          <Route path="/:id" element={<EventDetails />} />
         </Routes>
       </div>
     </Router>
