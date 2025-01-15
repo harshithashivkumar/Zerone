@@ -50,6 +50,7 @@ body {
   width: 900px;
   position: relative; /* Add position relative to use z-index */
   z-index: 5;
+  border: #04c404 2px solid;
 }
 
 .event-details h2 {
@@ -129,6 +130,16 @@ body {
 }
 
 
+.event-actions {
+  background: transparent;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  position: relative; /* Add position relative to use z-index */
+  z-index: 5;
+  border: #04c404 2px solid;
+}
 
 .event-flex{
   gap: 20px;
@@ -210,7 +221,6 @@ body {
 
 
 .event-actions{
-  
   padding-right: 100px;
   width: 300px;
 }
@@ -218,7 +228,7 @@ body {
 .event-actions h2{
   font-size: 1rem;
   margin-left: 40px;
-    margin-right: -40px;
+  margin-right: -40px;
 }
   .event-coordinators {
     justify-content: flex-start;
@@ -238,15 +248,12 @@ body {
   .event-actions{
     justify-content: center;
     align-items: center;
+    border: none;
   }
 
 
   .event-details {
-    width: 80%;
-  }
-
-  .event-actions{
-    width: 62%;
+    width: 90%;
   }
 
   .event-image img {
@@ -262,11 +269,11 @@ body {
   .event-coordinators{
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .coordinator p{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .register-button button {
@@ -274,18 +281,10 @@ body {
   }
 }
 
-
-
 @media(max-width:542px){
   .event-details{
     width: 400px;
   }
-
-  .event-actions{
-    width: 300px;
-  }
-
-
 }
 
 @media(max-width:447px){
@@ -294,12 +293,17 @@ body {
   }
 
   .event-actions{
-    width: 250px;
+    width: 200px;
   }
-
-  .event-actions p{
-    font-size: 10px;
-  }
-  
 }
 
+/* Adjust width for smaller screens */
+
+
+
+
+/* Add hover effects for coordinators */
+.coordinator:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
