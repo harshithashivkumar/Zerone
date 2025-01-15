@@ -50,7 +50,6 @@ body {
   width: 900px;
   position: relative; /* Add position relative to use z-index */
   z-index: 5;
-  border: #04c404 2px solid;
 }
 
 .event-details h2 {
@@ -130,16 +129,6 @@ body {
 }
 
 
-.event-actions {
-  background: transparent;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  width: 30%;
-  position: relative; /* Add position relative to use z-index */
-  z-index: 5;
-  border: #04c404 2px solid;
-}
 
 .event-flex{
   gap: 20px;
@@ -221,7 +210,7 @@ body {
 
 
 .event-actions{
-  border: #04c404 2px solid;
+  
   padding-right: 100px;
   width: 300px;
 }
@@ -267,14 +256,13 @@ body {
 
   .coordinator {
     display: flex;
-    margin-right: 20px;
-    margin-top: 20px;
+    
 }
     
   .event-coordinators{
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .coordinator p{
@@ -286,17 +274,7 @@ body {
   }
 }
 
-@media(max-width:542px){
-  .event-details{
-    width: 40px;
-  }
 
-  .event-actions{
-    width: 300px;
-  }
-
-
-}
 
 @media(max-width:542px){
   .event-details{
@@ -325,13 +303,3 @@ body {
   
 }
 
-/* Adjust width for smaller screens */
-
-
-
-
-/* Add hover effects for coordinators */
-.coordinator:hover {
-  transform: scale(1.1);
-  transition: transform 0.2s ease-in-out;
-}
