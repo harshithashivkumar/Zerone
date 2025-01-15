@@ -11,7 +11,7 @@ const Theme = () => {
         <div className="slogan">
             
             {/* <h3>Turn Your Potenital into posibility</h3> */}
-           <h2>Celebrating the  <span>Binary</span> <span className='green'>Brilliance..</span></h2> 
+           <h2>CELEBRATING THE  <span>Binary</span> <span className='green'>Brilliance..</span></h2> 
           
         </div>
         </div>

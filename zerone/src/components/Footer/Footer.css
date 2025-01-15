@@ -2,7 +2,7 @@
     
     position: relative;
     z-index: 5;
-    background-color: #06e406;
+    background-color: #3cd4d4;
     text-align: center;
     padding-bottom: 30px; /* Adjust padding if needed */
     margin:30px  -20px;
@@ -20,6 +20,18 @@
     color: rgb(0, 0, 0);
     font-size: 1.2rem;
     margin-bottom: 15px;
+}
+
+.footer a {
+    font-family: designer;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.footer span {
+    font-family: designer;
+    font-size: 1rem;
 }
   
 .footer-icons {
@@ -63,9 +75,15 @@
 @media (max-width: 768px){
     .footer h3 {
         color: rgb(0, 0, 0);
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         margin-bottom: 15px;
     }
+
+
+    .footer-icons p{
+        color: #3cd4d4;
+    }
+
 }
 
 @media (max-width: 430px){

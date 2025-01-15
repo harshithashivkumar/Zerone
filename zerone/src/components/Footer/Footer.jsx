@@ -18,7 +18,7 @@ const Footer = () => {
                 
             </div>
             <p>made by <span className='foo'>
-                <a href="https://www.instagram.com/dineshgowdavlogs" target="_blank" rel="noopener noreferrer">DINESH</a>
+                <a href="https://www.instagram.com/dineshgowdavlogs" target="_blank" rel="noopener noreferrer"><span>DINESH</span></a>
             </span></p>
         </div>
     </div>

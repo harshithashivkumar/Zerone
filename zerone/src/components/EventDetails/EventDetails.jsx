@@ -21,12 +21,10 @@ const eventDetails = {
     coordinators: [
       {
         name: "Dinesh",
-        image: assets.dinesh,
         phone: "7090969677",
       },
       {
         name: "Ramyashree",
-        image: assets.ramya,
         phone: "8792103204",
       },
     ],
@@ -48,12 +46,11 @@ const eventDetails = {
     coordinators: [
       {
         name: "Kiran kumar",
-        image: assets.kiran,
+        
         phone: "9538002362",
       },
       {
         name: "Megha",
-        image: assets.megha,
         phone: "8867474824",
       },
     ],
@@ -75,12 +72,10 @@ const eventDetails = {
     coordinators: [
       {
         name: "Nandan",
-        image: assets.nandan,
         phone: "8618539244",
       },
       {
         name: "Meghana",
-        image: assets.meghana,
         phone: "9019528254",
       },
     ],
@@ -103,12 +98,10 @@ const eventDetails = {
     coordinators: [
       {
         name: "Naveen",
-        image: assets.naveen,
         phone: "7204615411",
       },
       {
         name: "Sai Neha",
-        image: assets.saineha,
         phone: "9611989651",
       },
     ],
@@ -132,17 +125,14 @@ const eventDetails = {
     coordinators: [
       {
         name: "Shivu",
-        image: assets.shivu,
         phone: "9108373134",
       },
       {
         name: "Kusuma",
-        image: assets.kusuma,
         phone: "9591106749",
       },
       {
         name: "Prabhu",
-        image: assets.prabhu,
         phone: "9591563335",
       },
     ],
@@ -265,7 +255,7 @@ const EventDetails = () => {
             
             {event.coordinators.map((coordinator, index) => (
               <div key={index} className="coordinator">
-                <img src={coordinator.image} alt={coordinator.name} />
+                
                 <p>{coordinator.name}</p>
                 <p>{coordinator.phone}</p>
               </div>

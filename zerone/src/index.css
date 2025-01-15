@@ -13,6 +13,40 @@
   src: url(../fonts/SpeedBeast\ FREE.otf);
 }
 
+@font-face {
+  font-family: nexa;
+  src: url(../fonts/Nexa-Heavy.ttf);
+}
+
+@font-face {
+  font-family: nexaextra;
+  src: url(../fonts/Nexa-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: azonix;
+  src: url(../fonts/Azonix.otf);
+}
+
+
+@font-face {
+  font-family: quantify;
+  src: url(../fonts/Quantify.ttf);
+}
+
+@font-face {
+  font-family: designer;
+  src: url(../fonts/Designer.otf);
+}
+
+@font-face {
+  font-family: genflox;
+  src: url(../fonts/Genflox.ttf);
+}
+
+
+
+
 .pied {
   font-family: pied;
 }
