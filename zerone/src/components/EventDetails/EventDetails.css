@@ -256,6 +256,10 @@ body {
     width: 90%;
   }
 
+  .event-actions{
+    width: 66%;
+  }
+
   .event-image img {
     width: 80%;
   }
@@ -286,6 +290,12 @@ body {
   .event-details{
     width: 400px;
   }
+
+  .event-actions{
+    width: 300px;
+  }
+
+
 }
 
 @media(max-width:447px){
@@ -294,7 +304,7 @@ body {
   }
 
   .event-actions{
-    width: 200px;
+    width: 250px;
   }
 }
 
