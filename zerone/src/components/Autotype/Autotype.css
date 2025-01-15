@@ -26,7 +26,7 @@ h1 {
 }
 
 h1 span{
-  color:aqua
+  color:#00cbff;
 }
 
 
@@ -128,7 +128,7 @@ pre {
   }
 
   .head span{
-    color: aqua;
+    color:#00cbff;
     font-size: 4rem;
     margin-left: -1.5rem;
   }
