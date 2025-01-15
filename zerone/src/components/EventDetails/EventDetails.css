@@ -253,11 +253,11 @@ body {
 
 
   .event-details {
-    width: 90%;
+    width: 80%;
   }
 
   .event-actions{
-    width: 66%;
+    width: 62%;
   }
 
   .event-image img {
@@ -288,6 +288,18 @@ body {
 
 @media(max-width:542px){
   .event-details{
+    width: 40px;
+  }
+
+  .event-actions{
+    width: 300px;
+  }
+
+
+}
+
+@media(max-width:542px){
+  .event-details{
     width: 400px;
   }
 
@@ -306,6 +318,11 @@ body {
   .event-actions{
     width: 250px;
   }
+
+  .event-actions p{
+    font-size: 10px;
+  }
+  
 }
 
 /* Adjust width for smaller screens */
