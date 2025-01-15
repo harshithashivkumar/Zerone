@@ -49,7 +49,7 @@ const Autotype = () => {
           currentText += content[index][charIndex];
           setText(currentText); // Update the state with the current text
           charIndex++;
-          typingTimeout = setTimeout(typingEffect, 10); // Continue typing after a delay
+          typingTimeout = setTimeout(typingEffect, 60); // Continue typing after a delay
         } else {
           charIndex = 0;
           index++;

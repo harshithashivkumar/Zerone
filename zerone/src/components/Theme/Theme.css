@@ -137,6 +137,9 @@ span{
         font-size: 4rem;
     }
 }
+
+
+
 @media (max-width: 400px){
 
 }
@@ -159,4 +162,21 @@ span{
     color: #06e406; /* Green color for the second span */
     z-index: 6; /* Ensures it is above other elements */
     position: relative; /* Ensures z-index is applied */
+}
+
+
+@media (max-width: 510px){
+    .slogan {
+        margin-top: 10px;
+        font-size: 10px;
+        text-align: center; /* Centers text for smaller screens */
+        justify-content: start;
+    }
+    .slogan h2{
+        font-size: 0.8rem;
+       
+    }
+    .slogan h2 span{
+        font-size: 3rem;
+    }
 }

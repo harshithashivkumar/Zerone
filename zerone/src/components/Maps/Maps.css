@@ -36,7 +36,7 @@ input[type="button"] {
     font-size: 16px;
     margin: 20px auto; /* Add space and center */
     cursor: pointer;
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 30px; /* Rounded corners */
     position: relative; /* Set position to relative */
     z-index: 10; /* Ensure it is above other elements */
 }

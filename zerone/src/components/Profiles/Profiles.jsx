@@ -12,7 +12,7 @@ const Profiles = () => {
             <div className="all-profiles">
             <div className="hod-profile">
                 <img src={assets.hod} alt="" />
-                <h2>Dr. B G premasudha</h2>
+                <h2>Dr. B G Premasudha</h2>
             </div>
             </div>
         </div>
