@@ -44,7 +44,6 @@ span {
 .header-contents img {
   max-width: 80%;
   height: auto;
-  border-radius: 30px;
 }
 
 .header video {
@@ -74,10 +73,6 @@ span {
   justify-content: center;
   align-items: center;
   gap: 5px; /* Reduce gap between elements further */
-}
-
-.h-container .sitlog{
-  width: 70px;
 }
 
 .zeronelogo {
@@ -357,7 +352,7 @@ span {
     gap: 1px;
   }
   .header {
-    margin-top: 8rem;
+    margin-top: 13rem;
     margin-bottom: 18rem;
     margin-left: -10px;
   }

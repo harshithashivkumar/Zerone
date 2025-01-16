@@ -13,8 +13,6 @@ import bgvideo from './bgvideo.mp4';
 import theme from './Theme.png';
 import photography from './photography.png';
 import brouchere from './brouchere.pdf';
-import swamiji from './swamiji.jpeg'
-import swamiji1 from './swamiji1.png'
 
 
 // Exporting all assets as a single object
@@ -32,6 +30,4 @@ export const assets = {
   theme,
   photography,
   brouchere,
-  swamiji,
-  swamiji1,
 };
