@@ -7,10 +7,11 @@ const Header = () => {
     <div className="header">
       <div className="header-contents">
         <div className="h-container">
+        <img className="sitlog" src={assets.sit}  />
           <div className="main-head">
-            <img src={assets.sit} alt="SIT Logo" />
+            <img src={assets.swamiji} alt="SIT Logo" />
             <h1 className="sit-head pied">SIDDAGANGA INSTITUTE OF TECHNOLOGY</h1>
-            <img src={assets.sit} alt="SIT Logo" />
+            <img src={assets.swamiji1} alt="SIT Logo" />
           </div>
           <div className="text-container">
             <h1 className="dept">Department of MCA</h1>
