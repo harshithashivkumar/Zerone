@@ -67,7 +67,6 @@ const eventDetails = {
       "★ judges' decisions are final.",
       "★ participants must show problem-solving and decision-making skills.",
       "★ professional behavior is expected.",
-      "★ Participants registration fees: Rs.150",
 ],
     coordinators: [
       {
@@ -171,12 +170,10 @@ const eventDetails = {
     title: "Wisdom Wars",
     details: [
       "★ team size: 2 participants.",
-      "★ registration fee: RS.150.",
       "★ judges' decision is final.",
       "★ rules will be disclosed on the spot.",
       "★ each round has a fixed time limit.",
       "★ rounds will cover programming languages and computer networks.",
-      "★ prizes: winner RS.3000, runner-up RS.1500.",
       "★ participants must bring their own mobile devices and internet.",
       "★ malpractice leads to immediate disqualification.",
 
