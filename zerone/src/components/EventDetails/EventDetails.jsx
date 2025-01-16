@@ -36,8 +36,8 @@ const eventDetails = {
     title: "Techfluence",
     details: [
       "★ this is a solo event.",
-      "★ the competition will consist of 4 rounds.",
       "★ 3 participants from each college.",
+      "★ the competition will consist of 4 rounds.",
       "★ every participant will have five minutes to prepare right before their turn.",
       "★ carrying paper materials or electronic devices is strictly prohibited.",
       "★ any use of offensive language or breaking the rules will lead to disqualification.",
