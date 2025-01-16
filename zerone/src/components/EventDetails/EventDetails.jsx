@@ -9,6 +9,7 @@ const eventDetails = {
     title: "BGMI",
     details: [
       "★ number of participants per team: 4",
+      "★ 2 teams from each college.",
       "★ participants must carry their valid id proof for the event.",
       "★ squad should be physically present for the match.",
       "★ game will be played in custom rooms created by the host.",
@@ -36,6 +37,7 @@ const eventDetails = {
     details: [
       "★ this is a solo event.",
       "★ the competition will consist of 4 rounds.",
+      "★ 3 participants from each college.",
       "★ every participant will have five minutes to prepare right before their turn.",
       "★ carrying paper materials or electronic devices is strictly prohibited.",
       "★ any use of offensive language or breaking the rules will lead to disqualification.",
@@ -61,6 +63,7 @@ const eventDetails = {
     title: "Geniux",
     details: [
       "★ individual participation only.",
+      "★ 3 participants from each college.",
       "★ smartphones can be used only when instructed.",
       "★ rules for each round will be announced on the spot.",
       "★ malpractice will lead to immediate disqualification.",
@@ -86,6 +89,7 @@ const eventDetails = {
     title: "ByteMatrix",
     details: [
       "★ it is an individual event.",
+      "★ 3 participants from each college.",
       "★ languages allowed: c/c++/java/python.",
       "★ participants must report 30 minutes before the event to learn the rules.",
       "★ participants will be provided with pen and paper.",
@@ -112,6 +116,7 @@ const eventDetails = {
     title: "Design",
     details: [
       "★ each team must consist of 2 members.",
+      "★ 2 teams from each college.",
       "★ cumulative scoring will decide the result.",
       "★ allowed software: Adobe Illustrator, Adobe Photoshop, Canva, Figma.",
       "★ some rounds will be based on HTML, CSS, and JavaScript.",
@@ -143,6 +148,7 @@ const eventDetails = {
     title: "Run To Riches",
     details: [
         "★ each team must have 4 members.",
+        "★ 2 teams from each college.",
         "★ carry proof of registration or event IDs throughout the event.",
         "★ respect others; misconduct leads to disqualification.",
         "★ do not tamper with other teams, property or seek external help.",
@@ -171,6 +177,7 @@ const eventDetails = {
     title: "Wisdom Wars",
     details: [
       "★ team size: 2 participants.",
+      "★ 2 teams from each college.",
       "★ judges' decision is final.",
       "★ rules will be disclosed on the spot.",
       "★ each round has a fixed time limit.",
@@ -198,6 +205,7 @@ const eventDetails = {
     title: "Echos-Of-Light",
     details: [
       "★ it is an individual event.",
+      "★ 3 participants from each college.",
       "★ participants must assemble 30 minutes before the event to receive event information.",
       "★ editing must be done in front of volunteers in the designated area.",
       "★ malpractice (help from others) will lead to elimination.",
