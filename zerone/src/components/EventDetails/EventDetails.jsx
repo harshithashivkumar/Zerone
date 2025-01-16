@@ -67,6 +67,7 @@ const eventDetails = {
       "★ judges' decisions are final.",
       "★ participants must show problem-solving and decision-making skills.",
       "★ professional behavior is expected.",
+      "★ participants must adhere to the time limits for each round.",
 ],
     coordinators: [
       {
