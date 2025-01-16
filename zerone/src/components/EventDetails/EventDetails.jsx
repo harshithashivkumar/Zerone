@@ -17,7 +17,7 @@ const eventDetails = {
       "★ exploiting bugs for unfair advantages will be disqualified.",
       "★ every round of the event will have a definite time period.",
       "★ participants should carry their own mobile devices.",
-
+      "★ Registraion Fee: Rs.400.",
     ],
     coordinators: [
       {
@@ -44,6 +44,7 @@ const eventDetails = {
       "★ the judges' decision will be considered final and binding.",
       "★ the event will test participants' knowledge, creativity, and presentation skills.",
       "★ in case of a tie, a tiebreaker round will be conducted.",
+      "★ Registraion Fee: Rs.200.",
 ],
     coordinators: [
       {
@@ -71,6 +72,7 @@ const eventDetails = {
       "★ participants must show problem-solving and decision-making skills.",
       "★ professional behavior is expected.",
       "★ participants must adhere to the time limits for each round.",
+      "★ Registraion Fee: Rs.200.",
 ],
     coordinators: [
       {
@@ -98,6 +100,7 @@ const eventDetails = {
       "★ verdict of the judges will be final.",
       "★ participants must adhere to the time limits for each round.",
       "★ cheating or collaboration will lead to disqualification.",
+      "★ Registraion Fee: Rs.200.",
 ],
     coordinators: [
       {
@@ -125,6 +128,7 @@ const eventDetails = {
       "★ participants must bring their own laptop, mobile phones, and chargers.",
       "★ the event schedule must be followed strictly.",
       "★ install required software prior to the event.",
+      "★ Registraion Fee: Rs.300.",
 
 ],
     coordinators: [
@@ -156,6 +160,7 @@ const eventDetails = {
         "★ follow campus rules and stay within allowed areas.",
         "★ No Outsider's assistance is allowed.",
         "★ decisions of coordinators and judges are final.",
+        "★ Registraion Fee: Rs.400.",
 
     ],
     coordinators: [
@@ -184,6 +189,7 @@ const eventDetails = {
       "★ rounds will cover programming languages and computer networks.",
       "★ participants must bring their own mobile devices and internet.",
       "★ malpractice leads to immediate disqualification.",
+      "★ Registraion Fee: Rs.300.",
 
     ],
     coordinators: [
@@ -213,6 +219,7 @@ const eventDetails = {
       "★ no additional people other than participants are allowed in the event area.",
       "★ participants must use only provided equipment and software.",
       "★ content must be original and free from copyright violations.",
+      "★ Registraion Fee: Rs.200.",
 
     ],
     coordinators: [
