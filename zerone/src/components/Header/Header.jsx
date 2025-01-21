@@ -14,7 +14,7 @@ const Header = () => {
           </div>
           <div className="text-container">
             <h1 className="dept">Department of MCA</h1>
-            <h2>in associate with</h2>
+            <h2>in association with</h2>
             <h1 className="pied">
               <span>P</span>ied-Pipers
             </h1>
