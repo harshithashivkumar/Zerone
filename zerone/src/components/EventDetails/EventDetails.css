@@ -34,11 +34,13 @@ body {
 .event-image img {
   width: 60%;
   border-radius: 8px;
+  z-index: 5;
 }
 
 .event-image h1 {
   font-size: 2rem;
   color: #ffffff;
+  z-index: 5;
 }
 
 /* Event Details Section */
@@ -64,12 +66,14 @@ body {
   padding: 0;
   margin: 0;
   text-align: left; /* Align to left */
+  z-index: 5;
 }
 
 .event-details ul li {
   margin-bottom: 10px;
   font-size: 1rem;
   text-align: left; /* Align to left */
+  z-index: 5;
 }
 
 /* Coordinators Section */
@@ -89,17 +93,20 @@ body {
   align-items: center;
   gap: 10px;
   margin-bottom: 20px;
+  z-index: 5;
 }
 
 .coordinator img {
   width: 80px;
   height: 80px;
   border-radius: 20%;
+  z-index: 5;
 }
 
 .coordinator p {
   margin: 0;
   font-size: 1rem;
+  z-index: 5;
 }
 
 /* Register Button */
@@ -116,10 +123,12 @@ body {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+  z-index: 5;
 }
 
 .register-button button:hover {
   background-color: #04c404;
+  z-index: 5;
 }
 
 .event-flex {
@@ -143,6 +152,7 @@ body {
 
 .event-flex{
   gap: 20px;
+  z-index: 5;
 }
 
 
@@ -153,10 +163,12 @@ body {
 @media (max-width: 1024px) {
   .event-image img {
     width: 50%; /* Reduce image size on larger screens */
+    z-index: 5;
   }
 
   .event-details {
     width: 50%; /* Further refine layout for very large screens */
+    z-index: 5;
   }
 
   .coordinator {
@@ -165,17 +177,20 @@ body {
     align-items: center;
     gap: 10px;
     margin-bottom: 30px;
+    z-index: 5;
   }
 
   .coordinator img {
     width: 80px;
   height: 80px;
   border-radius: 20%;
+  z-index: 5;
   }
   
   .coordinator p {
     margin: 0;
     font-size: 0.7rem;
+    z-index: 5;
   }
 
 
@@ -183,7 +198,8 @@ body {
 }
 @media (max-width: 768px) {
   .event-flex {
-    flex-direction: column; /* Side-by-side layout for medium and larger screens */
+    flex-direction: column;
+    z-index: 5; /* Side-by-side layout for medium and larger screens */
   }
 
 
@@ -203,6 +219,7 @@ body {
 .event-details h2 {
   font-size: 1rem;
   margin-bottom: 10px;
+  z-index: 5;
 }
 
 .event-details ul {
@@ -210,6 +227,7 @@ body {
   padding: 0;
   margin: 0;
   text-align: left; /* Align to left */
+  z-index: 5;
 }
 
 .event-details ul li {
