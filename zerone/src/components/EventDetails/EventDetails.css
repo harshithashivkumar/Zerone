@@ -338,3 +338,7 @@ body {
   transition: transform 0.2s ease-in-out;
   z-index: 5;
 }
+
+.event-details {
+  color: white;
+}
