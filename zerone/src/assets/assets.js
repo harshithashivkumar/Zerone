@@ -13,7 +13,10 @@ import bgvideo from './bgvideo.mp4';
 import theme from './Theme.png';
 import photography from './photography.png';
 import brouchere from './brouchere.pdf';
-
+import nssilks from './nssilks.jpeg';
+import nilgiri from './nilgiri.png';
+import acelucid from './acelucid.png';
+import nsglass from './nsglass.png';
 
 // Exporting all assets as a single object
 export const assets = {
@@ -30,4 +33,10 @@ export const assets = {
   theme,
   photography,
   brouchere,
+  nssilks,
+  nilgiri,
+  acelucid,
+  nsglass,
 };
+
+

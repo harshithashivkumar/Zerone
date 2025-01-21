@@ -9,7 +9,7 @@
     height: 450px; /* Match the height to width for a square format */
     position: relative;
     margin: auto; /* Center the map horizontally */
-    border: 5px solid rgb(0, 253, 13);; /* Add a green border around the map */
+    border: 5px solid rgb(0, 253, 13); /* Add a green border around the map */
     border-radius: 12px; /* Optional: Add rounded corners */
     overflow: hidden; /* Ensure the iframe fits within the container */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */

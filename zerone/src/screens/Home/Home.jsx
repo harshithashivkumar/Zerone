@@ -6,6 +6,7 @@ import Events from "../../components/Events/Events";
 import Profiles from "../../components/Profiles/Profiles";
 import Maps from "../../components/Maps/Maps";
 import Footer from "../../components/Footer/Footer";
+import Sponsors from "../../components/Sponsors/Sponsors";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Events />
       <Profiles/>
       <Maps/>
+      <Sponsors/>
       <Footer/> 
     </>
   );
