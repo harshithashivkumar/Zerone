@@ -159,7 +159,7 @@ const eventDetails = {
         "★ do not destroy or misuse clues or event items.",
         "★ follow campus rules and stay within allowed areas.",
         "★ No Outsider's assistance is allowed.",
-        "★ decisions of coordinators and judges are final.",
+        "★ decisions of coordinators and judges' are final.",
         "★ Registraion Fee: Rs.400.",
 
     ],
