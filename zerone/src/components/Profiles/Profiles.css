@@ -1,17 +1,40 @@
+.zindex-5 {
+  z-index: 5;
+  position: relative; /* Ensure z-index works properly */
+}
+
 .profile-container {
   width: 100%;
   margin: 0 auto;
   padding: 2rem;
   margin-top: 60px;
+  margin-bottom: 70px;
   text-align: center;
   font-family: 'Arial', sans-serif;
   z-index: 5;
 }
 
+h2 span{
+  color:#00cbff;
+}
+
+
 .profile-container h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: #ffffff;
+  z-index: 5;
+  font-family: nexaextra;
+}
+
+.all-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.hod{
   z-index: 5;
 }
 
@@ -52,6 +75,7 @@
 }
 
 .faculty .fac-profile {
+  z-index: 5;
   width: calc(33.33% - 7rem); /* Ensures three profiles per row */
   z-index: 5;
 }
@@ -59,22 +83,44 @@
 @media (max-width: 768px) {
 
   .profile-container{
+    z-index: 5;
     margin-left: -30PX;
     padding-top: 20px;
   }
 
   .faculty .fac-profile {
+    z-index: 5;
     width: calc(50% - 1rem); /* Adjust to two profiles per row on medium screens */
+  }
+  .hod-profile h2{
+    font-size: 11px;
   }
 }
 
 @media (max-width: 480px) {
   .faculty .fac-profile {
+    z-index: 5;
     width: 100%; /* Stacks profiles in a single column on small screens */
   }
 }
 
 
-.profile-container h2{
-  font-family: Arial, Helvetica, sans-serif;
+.head-tag{
+  z-index: 5;
+}
+
+.head-tadg h2 {
+  font-family: pied;
+  font-size: 50px; /* Increase the font size as needed */
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff; /* Customize the color if required */
+  z-index: 5;
+}
+
+.hod-profile{
+  /* border: solid 2px white; */
+  margin: 2px;
+  padding: 5px;
+  border-radius: 20px;
 }

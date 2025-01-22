@@ -1,18 +1,33 @@
 import React from 'react'
-import { assets } from '../../assets/assets'
 import './Profiles.css'
 
 const Profiles = () => {
   return (
-    <div className="profile-container">
+    <div className="profile-container zindex-5">
         <div className="hod">
-            <div className="head-tag">
-            <h1>PRESIDENT</h1>
+            <div className="head-tadg">
+                
             </div>
-            <div className="all-profiles">
-            <div className="hod-profile">
-                <h2>Dr. B G Premasudha</h2>
-            </div>
+            <div className="all-container">
+                <div className="all-profiles">
+                    <div className="hod-profile">
+                        <h1>PATRON</h1>
+                        <h2>Dr. Shivakumaraiah</h2>
+                        <h2>Joint Secretary & CEO</h2>
+                    </div>
+                    <div className="hod-profile">
+                        <h1>PRINCIPAL</h1>
+                        <h2>Dr. S V Dinesh</h2>
+                        <h2>Principal, SIT, Tumkur</h2>
+                    </div>
+                    <div className="hod-profile">
+                        <h1>PRESIDENT</h1>
+                        <h2>Dr. B G Premasudha</h2>
+                        <h2>Head of MCA</h2>
+                    </div>
+                    
+                </div>
+                
             </div>
         </div>
         <div className="faculty">
