@@ -250,7 +250,7 @@ const EventDetails = () => {
     <div className="event-details-container">
       <div className="event-image">
         <img src={event.image} alt={event.title} />
-       
+        
       </div>
       <div className="event-flex">
         <div className="event-details">
@@ -280,7 +280,7 @@ const EventDetails = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button>Register</button>
+              <button>Registration Closed</button>
             </a>
           </div>
         </div>
