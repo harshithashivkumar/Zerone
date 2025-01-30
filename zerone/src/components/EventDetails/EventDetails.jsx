@@ -9,7 +9,7 @@ const eventDetails = {
     title: "BGMI",
     details: [
       "★ number of participants per team: 4",
-      "★ 2 teams from each college.",
+      "★ 3 teams from each college.",
       "★ participants must carry their valid id proof for the event.",
       "★ squad should be physically present for the match.",
       "★ game will be played in custom rooms created by the host.",
@@ -119,7 +119,7 @@ const eventDetails = {
     title: "Design",
     details: [
       "★ each team must consist of 2 members.",
-      "★ 2 teams from each college.",
+      "★ 3 teams from each college.",
       "★ cumulative scoring will decide the result.",
       "★ allowed software: Adobe Illustrator, Adobe Photoshop, Canva, Figma.",
       "★ some rounds will be based on HTML, CSS, and JavaScript.",
@@ -152,7 +152,7 @@ const eventDetails = {
     title: "Run To Riches",
     details: [
         "★ each team must have 4 members.",
-        "★ 2 teams from each college.",
+        "★ 3 teams from each college.",
         "★ carry proof of registration or event IDs throughout the event.",
         "★ respect others; misconduct leads to disqualification.",
         "★ do not tamper with other teams, property or seek external help.",
@@ -182,7 +182,7 @@ const eventDetails = {
     title: "Wisdom Wars",
     details: [
       "★ team size: 2 participants.",
-      "★ 2 teams from each college.",
+      "★ 3 teams from each college.",
       "★ judges' decision is final.",
       "★ rules will be disclosed on the spot.",
       "★ each round has a fixed time limit.",
