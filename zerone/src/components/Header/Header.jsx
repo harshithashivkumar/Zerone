@@ -26,7 +26,7 @@ const Header = () => {
           </h2>
 
           {/* Download Button */}
-          <button
+          {/* <button
             className="Download-button"
             onClick={() => window.location.href = assets.brouchere}
           >
@@ -42,7 +42,9 @@ const Header = () => {
               ></path>
             </svg>
             <span>Brochure</span>
-          </button>
+          </button> */}
+          <h2>Event is officially Closed</h2>
+          
         </div>
       </div>
     </div>
