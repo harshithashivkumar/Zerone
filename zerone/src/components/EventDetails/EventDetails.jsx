@@ -270,7 +270,7 @@ const EventDetails = () => {
               <div key={index} className="coordinator">
                 
                 <p>{coordinator.name}</p>
-                <p>{coordinator.phone}</p>
+                <p>{coordinator.pone}</p>{/*make correction as Phone for display phone number */}
               </div>
             ))}
           </div>

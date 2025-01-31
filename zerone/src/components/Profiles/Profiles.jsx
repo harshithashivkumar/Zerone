@@ -55,12 +55,12 @@ const Profiles = () => {
             <div className="student-profile">
                 
                 <h2>Harshith N Bali</h2>
-                <h2>Ph: 6363027720</h2>
+                
             </div>
             <div className="student-profile">
                 
                 <h2>Harshitha S</h2>
-                <h2>Ph: 6360543950</h2>
+                
             </div>
             </div>
         </div>
